@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+      * {
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+    list-style: none;
+}
+
+
+
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.art {
+  font-size: 1.3vw;
+}
+
+.info {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 18px;
+  margin: 1em;
+
+}
+
+
+        .responsive {
+            width: 50vw;
+            height: auto;
+            max-width: 500px;
+        }
+
+
+        .small{
+            font-size: 66%;
+        }
+
+        #centerer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .marquee {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.marquee span {
+  display: inline-block;
+  width: max-content;
+
+  padding-left: 100%;
+  /* show the marquee just outside the paragraph */
+  will-change: transform;
+  animation: marquee 8s linear infinite;
+  font-size: 100%;
+}
+
+
+
+@keyframes marquee {
+  0% { transform: translate(0, 0); }
+  100% { transform: translate(-100%, 0); }
+}
+
+
+/* Respect user preferences about animations */
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee span {
+    animation-iteration-count: 1;
+    animation-duration: 0.01; 
+    /* instead of animation: none, so an animationend event is 
+     * still available, if previously attached.
+     */
+    width: auto;
+    padding-left: 0;
+  }
+}
+    </style>
+</head>
+
+
+
+
+
+
+<body>
+
+  <div class="marquee">
+    <span>
+ <pre id="train">
+                                 __   __                                                              _                       _      _                 _      _                               
+      o O O     o O O     o O O  \ \ / /   ___    _  _      o O O  __ _      _ _    ___      o O O   (_)    _ _     __ __    (_)    | |_     ___    __| |    | |      o O O    o O O     o O O
+     o         o         o        \ V /   / _ \  | +| |    o      / _` |    | '_|  / -_)    o        | |   | ' \    \ V /    | |    |  _|   / -_)  / _` |    |_|     o        o         o     
+    ||__[O]   ||__[O]   ||__[O]   _|_|_   \___/   \_,_|   ||__[O] \__,_|   _|_|_   \___|   ||__[O]  _|_|_  |_||_|   _\_/_   _|_|_   _\__|   \___|  \__,_|   _(_)_   ||__[O]  ||__[O]   ||__[O]
+   {======|  {======|  {======| _| """ |_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""| {======|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_|"""""|_| """ | {======| {======|  {======|
+  ./o--000' ./o--000' ./o--000' "`-0-0-'"`-0-0-'"`-0-0-'./o--000'"`-0-0-'"`-0-0-'"`-0-0-'./o--000'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'./o--000'./o--000' ./o--000'
+    
+ </pre>
+    </span>
+ </div>
+
+
+<div id="centerer" class="art">
+
+
+
+<img src="IMG_48802.png" alt="drawing of deirdre and taylor" width="500" class="responsive">
+
+<pre class="small">
+  _      _      _      _      _      _      _      _      _      _      _      _      _      _   
+  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_ 
+ (_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)
+  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_) 
+    _                       ,ggggggggggggggg                                                   _   
+  _( )_                    dP""""""88""""""",dPYb,                                           _( )_ 
+ (_ o _)                   Yb,_    88       IP'`Yb                                          (_ o _)
+  (_,_)                     `""    88       I8  8I                                           (_,_) 
+    _                              88       I8  8'                                             _   
+  _( )_                            88       I8 dPgg,    ,ggg,                                _( )_ 
+ (_ o _)                           88       I8dP" "8I  i8" "8i                              (_ o _)
+  (_,_)                      gg,   88       I8P    I8  I8, ,8I                               (_,_) 
+    _                         "Yb,,8P      ,d8     I8, `YbadP'                                 _   
+  _( )_                         "Y8P'      88P     `Y8888P"Y888                              _( )_ 
+ (_ o _)                                                                                    (_ o _)
+  (_,_)                                                                                      (_,_) 
+    _                                                                                          _   
+  _( )_                                                                                      _( )_ 
+ (_ o _)                                                                                    (_ o _)
+  (_,_)                                                                                      (_,_) 
+    _                                                                                          _   
+  _( )_                                    8I          8I                                    _( )_ 
+ (_ o _)                                   8I          8I                                   (_ o _)
+  (_,_)                                    8I          8I   gg                               (_,_) 
+    _                                      8I          8I   ""                                 _   
+  _( )_   gg    gg    gg   ,ggg,     ,gggg,8I    ,gggg,8I   gg    ,ggg,,ggg,     ,gggg,gg    _( )_ 
+ (_ o _)  I8    I8    88bgi8" "8i   dP"  "Y8I   dP"  "Y8I   88   ,8" "8P" "8,   dP"  "Y8I   (_ o _)
+  (_,_)   I8    I8    8I  I8, ,8I  i8'    ,8I  i8'    ,8I   88   I8   8I   8I  i8'    ,8I    (_,_) 
+    _    ,d8,  ,d8,  ,8I  `YbadP' ,d8,   ,d8b,,d8,   ,d8b,_,88,_,dP   8I   Yb,,d8,   ,d8I      _   
+  _( )_  P""Y88P""Y88P"  888P"Y888P"Y8888P"`Y8P"Y8888P"`Y88P""Y88P'   8I   `Y8P"Y8888P"888   _( )_ 
+ (_ o _)                                                                             ,d8I'  (_ o _)
+  (_,_)                                                                            ,dP'8I    (_,_) 
+    _                                                                             ,8"  8I      _   
+  _( )_                                                                           I8   8I    _( )_ 
+ (_ o _)                                                                          `8, ,8I   (_ o _)
+  (_,_)                                                                            `Y8P"     (_,_) 
+    _                                                                                          _   
+  _( )_                                       ,dPYb,                                         _( )_ 
+ (_ o _)                                      IP'`Yb                                        (_ o _)
+  (_,_)                                       I8  8I                                         (_,_) 
+    _                                         I8  8'                                           _   
+  _( )_                             ,ggggg,   I8 dP                                          _( )_ 
+ (_ o _)                           dP"  "Y8gggI8dP                                          (_ o _)
+  (_,_)                           i8'    ,8I  I8P                                            (_,_) 
+    _                            ,d8,   ,d8' ,d8b,_                                            _   
+  _( )_                          P"Y8888P"   PI8"888                                         _( )_ 
+ (_ o _)                                      I8 `8,                                        (_ o _)
+  (_,_)                                       I8  `8,                                        (_,_) 
+    _                                         I8   8I                                          _   
+  _( )_                                       I8   8I                                        _( )_ 
+ (_ o _)                                      I8, ,8'                                       (_ o _)
+  (_,_)                                        "Y8P'                                         (_,_) 
+    _      _      _      _      _      _      _      _      _      _      _      _      _      _   
+  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_  _( )_ 
+ (_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)(_ o _)
+  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_)  (_,_) 
+    </pre>
+
+
+
+
+
+
+
+    <pre>
+      .    .     .          .-           .           
+    .-| .-,..-..-| .-..-,  -|-.-..-..-.-.|-..-,.-..-.
+    `-'-`'-''  `-'-'  `'-   ' '  `-'' ' '`-'`'-'  `-|
+                                                  `-'
+  </pre>
+
+    <pre  class="small">
+                      __
+        ___ ____  ___/ /
+       / _ `/ _ \/ _  / 
+       \_,_/_//_/\_,_/  
+    </pre>
+
+<pre>
+        .            .;                                
+    ...;...         .;'                    .'          
+     .'.-. .    .-..;  .-.  .;.::.    .-..'.    .-..-. 
+   .; ;   : `:  ; ::  ;   ;'.;       :   ;  `:  ;.;.-' 
+ .;   `:::'-'`.'_;;_.-`;;'.;'        `:::'`. `.'  `:::'
+          -.;'                            -.;'         
+</pre>
+</div>
+
+<div id="centerer" class="info">
+<p class="graph">at</p>
+<p class="graph">Digital Art Demo Space</p>
+<p class="graph">2515 S Archer Ave Ste 2</p>
+<p class="graph">Chicago, IL 60608</p>
+<p> </p>
+<p class="graph">Doors at 6PM</p>
+<p class="graph">Ceremony at 7PM</p>
+<p class="graph">Reception until 12AM</p>
+<p> </p>
+<p class="graph">Wear something crazy</p>
+<p class="graph">Potluck encouraged</p>
+<p> </p>
+<p class="graph">RSVP:</p>
+<a href="google.com">link</a>
+<p> </p>
+<p class="graph">Registry:</p>
+<a href="google.com">link</a>
+</div>
+</body>
+<footer class="color">
+  <br><br><br>
+  <p>test</p>
+</footer>
+</html>
